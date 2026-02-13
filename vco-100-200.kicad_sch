@@ -750,6 +750,12 @@
 		(uuid "145ccddb-1085-4c1b-ae56-36a45d6920bf")
 	)
 	(junction
+		(at 57.15 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "511852d9-7393-46f1-b89a-b999349155da")
+	)
+	(junction
 		(at 87.63 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -817,6 +823,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 68.58) (xy 67.31 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f988d0b-487b-4739-976d-af5be1c07759")
+	)
+	(wire
+		(pts
 			(xy 87.63 80.01) (xy 87.63 85.09)
 		)
 		(stroke
@@ -877,7 +893,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 68.58) (xy 67.31 68.58)
+			(xy 54.61 68.58) (xy 57.15 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1007,7 +1023,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 68.58) (xy 181.61 68.58)
+			(xy 57.15 66.04) (xy 57.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e50da1-7530-4bec-8926-26c079cdc9d7")
+	)
+	(wire
+		(pts
+			(xy 180.34 68.58) (xy 187.96 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1035,9 +1061,102 @@
 		)
 		(uuid "fdc0b849-51cc-4332-b883-90237ac83eea")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 124.46 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2593e6a3-8c5d-4aa2-9b35-dd137d75b6e6")
+		(property "Netclass" "50 Ohm"
+			(at 125.1585 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 38.1 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 57.15 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d38fb06-9fa0-4279-bb42-6f5618b31b3f")
+		(property "Netclass" "50 Ohm"
+			(at 57.8485 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -29.21 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 184.15 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed0b25c1-fd03-405f-9734-694e6546229a")
+		(property "Netclass" "50 Ohm"
+			(at 184.8485 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 97.79 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "connectors:RF-PCB-pin-place")
-		(at 185.42 68.58 0)
+		(at 191.77 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1046,7 +1165,7 @@
 		(fields_autoplaced yes)
 		(uuid "152cc2ab-6a6e-4b0a-b574-c1fe7d9be422")
 		(property "Reference" "XS1"
-			(at 185.42 65.278 0)
+			(at 191.77 65.278 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1055,7 +1174,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 185.42 68.58 0)
+			(at 191.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1183,7 @@
 			)
 		)
 		(property "Footprint" "RF-connectors:RF-PCB-pin-place"
-			(at 185.42 68.58 0)
+			(at 191.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1073,7 +1192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 68.58 0)
+			(at 191.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,7 +1201,7 @@
 			)
 		)
 		(property "Description" "PCB pin soldering place for the housing places SMA connectors"
-			(at 185.42 68.58 0)
+			(at 191.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,7 +1210,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 185.42 68.58 0)
+			(at 191.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1363,7 @@
 	)
 	(symbol
 		(lib_id "connectors:RF-PCB-pin-place")
-		(at 60.96 68.58 0)
+		(at 50.8 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1253,7 +1372,7 @@
 		(dnp no)
 		(uuid "8d038979-003a-4c55-ae10-76f9a0fd5714")
 		(property "Reference" "XS2"
-			(at 60.96 65.278 0)
+			(at 50.8 65.278 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1262,7 +1381,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 60.96 68.58 0)
+			(at 50.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1390,7 @@
 			)
 		)
 		(property "Footprint" "RF-connectors:RF-PCB-pin-place"
-			(at 60.96 68.58 0)
+			(at 50.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +1399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 68.58 0)
+			(at 50.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1408,7 @@
 			)
 		)
 		(property "Description" "PCB pin soldering place for the housing places SMA connectors"
-			(at 60.96 68.58 0)
+			(at 50.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1417,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 60.96 68.58 0)
+			(at 50.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1442,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 60.96 71.12 0)
+		(at 50.8 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1332,7 +1451,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5a86130-8a97-411c-b5a9-284a54ad927b")
 		(property "Reference" "#PWR012"
-			(at 60.96 77.47 0)
+			(at 50.8 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1460,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 60.96 76.2 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +1469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 71.12 0)
+			(at 50.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1478,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 71.12 0)
+			(at 50.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,7 +1487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 60.96 71.12 0)
+			(at 50.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1640,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 185.42 71.12 0)
+		(at 191.77 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1530,7 +1649,7 @@
 		(fields_autoplaced yes)
 		(uuid "dee08f1a-d347-418d-9ac0-651e8f7d1216")
 		(property "Reference" "#PWR010"
-			(at 185.42 77.47 0)
+			(at 191.77 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1658,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 185.42 76.2 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 71.12 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 71.12 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 185.42 71.12 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
